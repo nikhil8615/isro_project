@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Welcome</h2>
+
+      <input type="text" id="username" placeholder="Email Address" />
+      <input type="password" id="password" placeholder="Password" />
+
+      <div class="link-row">
+        <a href="#">Forgot Password</a>
+      </div>
+
+      <button onclick="login()">Login</button>
+
+      <p id="error-message"></p>
+    </div>
+
+    <script src="credentials.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

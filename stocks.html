@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Transfer</title>
+    <link rel="stylesheet" href="stocks.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ADD STOCKS</h1>
+
+      <label for="chemical">Chemical</label>
+      <select id="chemical">
+        <option value="">Select Chemical</option>
+        <option>Chemical 1</option>
+        <option>Chemical 2</option>
+        <option>Chemical 3</option>
+        <option>Chemical 4</option>
+        <option>Chemical 5</option>
+        <option>Chemical 6</option>
+        <option>Chemical 7</option>
+        <option>Chemical 8</option>
+        <option>Chemical 9</option>
+        <option>Chemical 10</option>
+      </select>
+
+      <label for="from">From</label>
+      <select id="from">
+        <option value="">Select Building</option>
+        <option>Building 1</option>
+        <option>Building 2</option>
+        <option>Building 3</option>
+      </select>
+
+      <label for="to">To</label>
+      <select id="to">
+        <option value="">Select Building</option>
+        <option>Building 1</option>
+        <option>Building 2</option>
+        <option>Building 3</option>
+      </select>
+
+      <label for="lotno">Lot No</label>
+      <input type="text" id="lotno" placeholder="Enter alphanumeric Lot No" />
+
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" placeholder="Enter quantity" />
+
+      <label for="remarks">Remarks</label>
+      <textarea id="remarks" placeholder="Enter remarks..."></textarea>
+
+      <button type="submit">Submit</button>
+      <button type="button" id="download-btn">Download Excel</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="stocks.js"></script>
+  </body>
+</html>
